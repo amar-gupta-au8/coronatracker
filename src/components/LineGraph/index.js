@@ -76,7 +76,7 @@ const LineGraph = ({ caseType = 'cases' }) => {
 
   return (
     <div style={{ maxHeight: '290px', minWidth: '300px' }}>
-      <h1>This is the data</h1>
+      <h1>{caseType}</h1>
       {data?.length > 0 && (
         <Line
           options={options}

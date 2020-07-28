@@ -136,7 +136,7 @@ const Home = () => {
             <CardContent>
               <h3>Live Cases By Country</h3>
               <Table countries={tableData} />
-              <h3>World Wide New Cases</h3>
+              <h3>World Wide {caseType}</h3>
               <LineGraph caseType={caseType} />
             </CardContent>
           </Card>
