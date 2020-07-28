@@ -9,7 +9,9 @@ const InfoBox = ({ title, cases, total, onClick }) => {
           <Typography className='infoBox_title' color='textSecondary'>
             {title}
           </Typography>
-          <h2 className='infoBox_cases'>{cases}</h2>
+          <h1 className='infoBox_cases' style={{ color: '#cc1034' }}>
+            {cases}
+          </h1>
           <Typography className='infoBox_total' color='textSecondary'>
             {total} Total
           </Typography>
